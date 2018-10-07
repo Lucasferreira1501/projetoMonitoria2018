@@ -1,0 +1,19 @@
+RUNCODES
+
+Arquivos fortran
+
+Devem estar em extensão ".f90"
+Não usar comando Pause
+Nao usar read(*,*) sem ler uma variavel, ou seja, não escreva nenhuma linha de código assim:
+
+read(*,*)
+
+Sempre que usar read tem que estar lendo algo. Exemplo: lendo variavel a
+
+read(*,*) a
+
+Não printar na tela nada além do que é pedido no enunciado.
+
+Arquivos C
+
+Problema biiblioteca conio.h no include
