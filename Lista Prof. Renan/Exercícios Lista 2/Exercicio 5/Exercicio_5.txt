@@ -1,0 +1,5 @@
+Questao 5:
+
+A diferença entre classe e estrutura em c++ é só o padrão private ou public de seus membros.
+
+Em estruturas o padrão é public, enquanto em classes é private. O espaço ocupado por um objeto de uma classe ou estrutura é um bloco de memória (de base padrão), que contenha o espaço ocupado pelos membros da classe. Já no caso de uma união, o espaço ocupado pelo objeto da classe é igual ao espaço do membro da classe que ocupe mais espaço na memória.

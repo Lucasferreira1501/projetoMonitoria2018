@@ -1,0 +1,2 @@
+Numeros Impares de    3 a    7:
+   3    5    7 

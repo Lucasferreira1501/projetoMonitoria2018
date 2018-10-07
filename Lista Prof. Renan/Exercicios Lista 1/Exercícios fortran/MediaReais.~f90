@@ -1,0 +1,42 @@
+!====================================================================
+!André Fernandes Gonçalves
+!Matrícula 114038073
+!Linguagens de Programação para Engenharia Elétrica
+!Turma B1
+!====================================================================
+!Entrada de dados
+REAL V(100), media, soma
+INTEGER i, n
+PRINT*,'Este programa calcula a média entre até 100 números reais'
+PRINT*,' '
+PRINT*,'Insira a quantidade de termos à ser calculado a média'
+READ(*,*)n
+PRINT*,' '
+PRINT*,'Insira os números reais à ser calculado a média'
+READ(*,*)(V(i),i=1,n)
+!====================================================================
+!Processamento
+media = 0
+soma = 0
+DO i=1, n
+    soma = soma + V(i)
+END DO
+media = soma/n
+!====================================================================
+!Saída de dados
+PRINT*,' '
+PRINT*,'A média calculada foi:',media
+
+
+
+!====================================================================
+!Subrotinas
+
+
+!====================================================================
+!Funções
+
+
+!====================================================================
+STOP
+END

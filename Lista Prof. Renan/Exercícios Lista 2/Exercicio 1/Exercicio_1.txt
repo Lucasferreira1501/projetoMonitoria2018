@@ -1,0 +1,19 @@
+Lista 2 - Programação Engenharia elétrica
+
+Questão 1:
+
+A função abaixo apresenta um erro. Aponte-o, sabendo que a chamada no programa
+principal foi esta: funcao (&a, &b), feita após a declaração: int a(3), b(5);.
+void funcao(int *p1, int *p2){
+int *aux;
+*aux = *p1;
+*p1 = *p2;
+*p2 = *aux;
+}
+
+Resposta:
+
+Ponteiro auxiliar (aux) não inicializado, ou seja, não recebeu um endereço de outra variavel ou por alocação dinamica.
+Quando o compilador tentar operar com o ponteiro não inicializado irá apontar um erro.
+
+
