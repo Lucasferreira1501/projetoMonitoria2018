@@ -16,19 +16,19 @@ Lista de Exercícios feitos upload para o Run.codes
 
 #### Exercicio 1
 - [ ] FORTRAN (.f90) |
-- [ ] .C
+- [x] .C
 - [ ] .CPP
 - [ ] Matlab (.M)
 
 #### Exercicio 2
 - [ ] FORTRAN (.f90)
-- [ ] .C
+- [x] .C
 - [ ] .CPP
 - [ ] Matlab (.M)
 
 #### Exercicio 3
 - [ ] FORTRAN (.f90)
-- [ ] .C
+- [x] .C
 - [ ] .CPP
 - [ ] Matlab (.M)
 
